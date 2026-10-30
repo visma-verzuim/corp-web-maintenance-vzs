@@ -27,8 +27,8 @@ broken site or a generic error page.
 
 ## Usage
 
-1. Update the maintenance window text and support email in `index.html` if
-   the details differ from the current placeholders.
+1. Edit the heading and text in `index.html` if needed. Make the same change in
+   the BlueVi page (`corp-web-maintenance-bluevi`), only the product name differs.
 2. Deploy `index.html` to your static host of choice.
 3. Point the relevant DNS record(s) at that host for the duration of the
    maintenance window.
